@@ -17,6 +17,7 @@ header {
 }
 
 h1 {
+  text-align: center;
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
@@ -24,11 +25,12 @@ h1 {
 }
 
 form {
-  padding: 3opx;
-  background-color: antiquewhite;
+  padding: 30px;
+  background-color: white;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   border-radius: 8px;
   display: flex;
+  margin-bottom: 30px;
 }
 
 .prompt {
@@ -43,8 +45,9 @@ form {
 
 .submit-button {
   margin-left: 10px;
-  background-color: #885df1;
+  background: #885df1;
   color: white;
+  width: 150px;
   border: none;
   font-size: 16px;
   border-radius: 50px;
