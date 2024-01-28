@@ -21,10 +21,6 @@ function generatePoem(event) {
   poemElement.classList.remove("hidden");
   poemElement.innerHTML = `<div class="blink">⏳ Generating a haiku about ${instructionsInput.value}</div>`;
 
-  console.log("generating haiku");
-  console.log(`prompt: ${prompt}`);
-  console.log(`context: ${context}`);
-
   axios.get(apiUrl).then(displayPoem);
 }
 
